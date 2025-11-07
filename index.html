@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joseph Wainaina Huho | Jey Portfolio</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta name="title" content="Joseph Wainaina Huho | Jey Portfolio">
+  <meta name="description" content="Explore Jey's creative tech portfolio—SQL, branding, gaming, and symbolic design.">
+  <meta name="keywords" content="Jey, Joseph Wainaina Huho, SQL, branding, phoenix logo, portfolio, Kenya, creative technologist">
+  <meta name="author" content="Joseph Wainaina Huho">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: #f0f0f0;
+      scroll-behavior: smooth;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: rgba(0, 0, 0, 0.6);
+    }
+    header h1 {
+      font-size: 3rem;
+      font-family: 'Orbitron', sans-serif;
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    nav {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-shadow: 0 0 10px #00ffff;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeIn 1s ease-out;
+    }
+    h2 {
+      color: #00ffff;
+      border-bottom: 2px solid #00ffff;
+      padding-bottom: 0.5rem;
+      font-family: 'Orbitron', sans-serif;
+    }
+    .skills, .portfolio, .blog {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .skills div, .portfolio div, .blog div {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      border-radius: 8px;
+      transition: 0.3s ease;
+    }
+    .skills div:hover, .portfolio div:hover, .blog div:hover {
+      border: 1px solid #00ffff;
+      box-shadow: 0 0 10px #00ffff;
+    }
+    a {
+      color: #00ffff;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #111;
+      color: #888;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      border: 1px solid #00ffff;
+      border-radius: 5px;
+      background-color: #1a1a2e;
+      color: #f0f0f0;
+    }
+    input::placeholder, textarea::placeholder {
+      color: #888;
+    }
+    button {
+      padding: 0.8rem;
+      background-color: #00ffff;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      box-shadow: 0 0 10px #00ffff;
+    }
+    .logo {
+      margin-top: 20px;
+      width: 150px;
+      border-radius: 50%;
+      box-shadow: 0 0 20px #00ffff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Joseph Wainaina Huho (Jey)</h1>
+    <p>Creative Technologist | Brand Visionary | SQL Architect</p>
+    <img src="phoenix-logo.png" alt="Glowing Phoenix Logo" class="logo" />
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m Jey, a visionary creator from Karuri, Kenya, blending technical precision with symbolic depth. I specialize in SQL/database systems, branding, and futuristic design. My work is inspired by symbols like the phoenix, torch, and infinity—representing resilience, leadership, and limitless potential.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills & Expertise</h2>
+    <div class="skills">
+      <div><strong>SQL & Databases</strong><br/>Schema design, querying, data analysis</div>
+      <div><strong>C++ Programming</strong><br/>Functions, pointers, arrays</div>
+      <div><strong>Visual Modeling</strong><br/>ERDs, DFDs, system diagrams</div>
+      <div><strong>Branding</strong><br/>Logo design, symbolism, storytelling</div>
+      <div><strong>Futuristic Design</strong><br/>Neon, holographic, sound-reactive visuals</div>
+      <div><strong>Gaming & Hardware</strong><br/>PS5 optimization, SSD tuning, strategy</div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+      <div><strong>Logo Designs</strong><br/>Neon, metallic, symbolic branding</div>
+      <div><strong>SQL Projects</strong><br/>MUT_DB and advanced queries</div>
+      <div><strong>ERDs & DFDs</strong><br/>Visual system architecture</div>
+      <div><strong>Gaming Setup</strong><br/>PS5 + SSD + curated game library</div>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <div class="blog">
+      <div>
+        <strong>Why the Phoenix Symbol Powers My Brand</strong><br/>
+        The phoenix isn’t just a mythical bird—it’s a symbol of resilience, rebirth, and limitless potential. In my brand identity, the phoenix represents the journey of transformation: rising from setbacks, evolving through experimentation, and igniting innovation.
+      </div>
+      <div>
+        <strong>Building MUT_DB: A Hands-On SQL Journey</strong><br/>
+        MUT_DB was born from a desire to master real-world database operations. From schema design to complex queries, this project showcases my structured thinking and technical depth.
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Email: <a href="mailto:jey@josephwainainahuho.me">jey@josephwainainahuho.me</a></p>
+    <p>LinkedIn | Behance | GitHub (Add your links here)</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Joseph Wainaina Huho. All rights reserved.
+  </footer>
+
+</body>
+</html>
